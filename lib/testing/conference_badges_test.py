@@ -43,6 +43,7 @@ class TestConferenceBadges:
       '''contains a function "batch_badge_creator()" that creates and returns a list of badges.'''
       assert(type(batch_badge_creator(TestConferenceBadges.NAMES)) == list)
       assert(batch_badge_creator(TestConferenceBadges.NAMES) == TestConferenceBadges.BADGES)
+      
 
     def test_assign_rooms(self):
         '''contains a function "assign_rooms" that returns a list of welcome messages and room assignments.'''
